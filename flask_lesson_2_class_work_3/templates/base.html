@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>training</title>
+    <style>
+        .center {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Миссия Колонизация Марса</h1>
+    <h4>И на Марсе будут яблони цвести!</h4>
+    {% set professions = ['Инженер', 'Пилот', 'Экзобиолог', 'Строитель', 'Инженер жизнеобеспечения', 'климатолог', 'врач', 'астролог'] %}
+    {% if list == "ol" %}
+        <ol>
+            {% for profession in professions %}
+                <li>{{profession}}</li>
+            {% endfor %}
+        </ol>
+    {% else %}
+        <ul>
+            {% for profession in professions %}
+                <li>{{profession}}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>

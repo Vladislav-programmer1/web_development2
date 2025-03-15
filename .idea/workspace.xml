@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee8553ab-f7b4-4c26-9daa-4572d420b1b0" name="Changes" comment="flask_lesson_2_classwork_1">
-      <change afterPath="$PROJECT_DIR$/flask_lesson_2_class_work_2/static/img/engineer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_lesson_2_class_work_2/static/img/science.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_lesson_2_class_work_2/templates/base.html" afterDir="false" />
+    <list default="true" id="ee8553ab-f7b4-4c26-9daa-4572d420b1b0" name="Changes" comment="flask_lesson_2_classwork_2">
+      <change afterPath="$PROJECT_DIR$/flask_lesson_2_class_work_3/task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_lesson_2_class_work_3/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_lesson_2_class_work_2/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_lesson_2_class_work_2/task2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,7 @@
     "Python.slide_show_landscapes.executor": "Run",
     "Python.task.executor": "Run",
     "Python.task2.executor": "Run",
+    "Python.task3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
@@ -65,29 +66,7 @@
       <recent name="C:\Users\Shchegolev\web_project_with_git\pythonProject\flask_lesson_2_classwork_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.task2">
-    <configuration name="file_uploading" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_lesson_1_additional_1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_lesson_1_additional_1/file_uploading.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.task3">
     <configuration name="help" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -198,13 +177,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="task3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_lesson_2_class_work_3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_lesson_2_class_work_3/task3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task3" />
         <item itemvalue="Python.task2" />
         <item itemvalue="Python.task" />
         <item itemvalue="Python.slide_show_landscapes" />
         <item itemvalue="Python.help" />
-        <item itemvalue="Python.file_uploading" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742037215810</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="flask_lesson_2_classwork_2">
+      <option name="closed" value="true" />
+      <created>1742039170575</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742039170575</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,7 +302,8 @@
     <MESSAGE value="flask_lesson_1_additional_1" />
     <MESSAGE value="flask_lesson_1_additional_2" />
     <MESSAGE value="flask_lesson_2_classwork_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="flask_lesson_2_classwork_1" />
+    <MESSAGE value="flask_lesson_2_classwork_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="flask_lesson_2_classwork_2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
