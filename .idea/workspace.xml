@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee8553ab-f7b4-4c26-9daa-4572d420b1b0" name="Changes" comment="flask_lesson_1_additional_1">
-      <change afterPath="$PROJECT_DIR$/flask_lesson_1_additional_2/help.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_lesson_1_additional_2/slide_show_landscapes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_lesson_1_additional_2/slides.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_lesson_1_additional_2/static/img/image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_lesson_1_additional_2/static/img/image_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_lesson_1_additional_2/static/img/image_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_lesson_1_additional_2/static/img/image_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_lesson_1_additional_2/static/img/image_5.png" afterDir="false" />
+    <list default="true" id="ee8553ab-f7b4-4c26-9daa-4572d420b1b0" name="Changes" comment="flask_lesson_1_additional_2">
+      <change afterPath="$PROJECT_DIR$/flask_lesson_2_classwork_1/task.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_lesson_1_additional_1/file_uploading.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_lesson_1_additional_1/file_uploading.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_lesson_1_homework_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_lesson_1_homework_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_lesson_1_additional_2/slides.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_lesson_1_additional_2/slides.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.slide_show_landscapes">
+  <component name="RunManager" selected="Python.task">
     <configuration name="file_uploading" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -172,8 +164,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_lesson_2_classwork_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_lesson_2_classwork_1/task.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task" />
         <item itemvalue="Python.slide_show_landscapes" />
         <item itemvalue="Python.help" />
         <item itemvalue="Python.file_uploading" />
@@ -229,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742031896410</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="flask_lesson_1_additional_2">
+      <option name="closed" value="true" />
+      <created>1742035840104</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742035840104</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,7 +271,8 @@
     <MESSAGE value="flask_lesson_1_classwork_5" />
     <MESSAGE value="flask_lesson_1_homework_2" />
     <MESSAGE value="flask_lesson_1_additional_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="flask_lesson_1_additional_1" />
+    <MESSAGE value="flask_lesson_1_additional_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="flask_lesson_1_additional_2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
