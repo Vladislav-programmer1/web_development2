@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% set room = "Каюта №" %}
+    {% for member in members %}
+        {% if loop.first == 1 %}
+            <ol>{{ member }} - {{ room }} {{ loop.index }} - Капитан корабля</ol>
+        {% else %}
+            <ol>{{ member }} - {{ room }} {{ loop.index }}</ol>
+        {% endif %}
+    {% endfor %}
+{% endblock %}
