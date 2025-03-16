@@ -1,34 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>training</title>
-    <style>
-        .center {
-            display: flex;
-            justify-content: center;
-        }
-    </style>
+<meta charset="UTF-8">
+    <title>{{ title }}</title>
 </head>
 <body>
     <h1>Миссия Колонизация Марса</h1>
     <h4>И на Марсе будут яблони цвести!</h4>
-    <div class="center">
-        {% if "инженер" in name or "строитель" in name %}
-            <div>
-                <div class="center">
-                    <h1>Инженерные тренажёры</h1>
-                </div>
-                <img src="static/img/engineer.png">
-            </div>
-        {% else %}
-            <div>
-                <div class="center">
-                    <h1>Научные симуляторы</h1>
-                </div>
-                <img src="static/img/science.png">
-            </div>
-        {% endif %}
-    </div>
+    {% block content %}
+    {% endblock %}
 </body>
 </html>
