@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% set professions = ['Инженер', 'Пилот', 'Экзобиолог', 'Строитель', 'Инженер жизнеобеспечения', 'климатолог', 'врач', 'астролог'] %}
+    {% if list == "ol" %}
+        <ol>
+            {% for profession in professions %}
+                <li>{{profession}}</li>
+            {% endfor %}
+        </ol>
+    {% else %}
+        <ul>
+            {% for profession in professions %}
+                <li>{{profession}}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endblock %}

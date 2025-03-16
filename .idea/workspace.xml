@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee8553ab-f7b4-4c26-9daa-4572d420b1b0" name="Changes" comment="flask_lesson_2_classwork_1">
-      <change afterPath="$PROJECT_DIR$/flask_lesson_2_class_work_2/templates/profession.html" afterDir="false" />
+    <list default="true" id="ee8553ab-f7b4-4c26-9daa-4572d420b1b0" name="Changes" comment="flask_lesson_2_classwork_2">
+      <change afterPath="$PROJECT_DIR$/flask_lesson_2_class_work_3/templates/task3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_lesson_2_class_work_2/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_lesson_2_class_work_2/task2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_lesson_2_class_work_2/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_lesson_2_class_work_2/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask_lesson_2_class_work_3/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_lesson_2_class_work_3/task3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_lesson_2_classwork_1/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_lesson_2_classwork_1/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_lesson_2_class_work_3/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_lesson_2_class_work_3/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
       <recent name="C:\Users\Shchegolev\web_project_with_git\pythonProject\flask_lesson_2_classwork_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.task2">
+  <component name="RunManager" selected="Python.task3">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -203,9 +201,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task3" />
         <item itemvalue="Python.task2" />
         <item itemvalue="Python.task" />
-        <item itemvalue="Python.task3" />
         <item itemvalue="Python.task1" />
         <item itemvalue="Python.slide_show_landscapes" />
       </list>
@@ -299,7 +297,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742121516643</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="sometimes... we need rest...">
+      <option name="closed" value="true" />
+      <created>1742129990277</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1742129990277</updated>
+    </task>
+    <task id="LOCAL-00011" summary="flask_lesson_2_classwork_2">
+      <option name="closed" value="true" />
+      <created>1742130019234</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1742130019234</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,10 +352,11 @@
     <MESSAGE value="flask_lesson_1_homework_2" />
     <MESSAGE value="flask_lesson_1_additional_1" />
     <MESSAGE value="flask_lesson_1_additional_2" />
-    <MESSAGE value="flask_lesson_2_classwork_2" />
     <MESSAGE value="flask_lesson_2_classwork_3" />
     <MESSAGE value="flask_lesson_2_classwork_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="flask_lesson_2_classwork_1" />
+    <MESSAGE value="sometimes... we need rest..." />
+    <MESSAGE value="flask_lesson_2_classwork_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="flask_lesson_2_classwork_2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
