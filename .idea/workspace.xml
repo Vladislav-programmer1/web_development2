@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee8553ab-f7b4-4c26-9daa-4572d420b1b0" name="Changes" comment="flask_lesson_2_classwork_3">
-      <change afterPath="$PROJECT_DIR$/help.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_lesson_2_classwork_1/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_lesson_2_classwork_1/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="2111bf9706ace5f3b9d46b9e72710f42e333542f" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,7 +64,7 @@
       <recent name="C:\Users\Shchegolev\web_project_with_git\pythonProject\flask_lesson_2_classwork_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.task1">
+  <component name="RunManager" selected="Python.task">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -199,10 +199,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.task1" />
+        <item itemvalue="Python.task" />
         <item itemvalue="Python.task3" />
         <item itemvalue="Python.task2" />
-        <item itemvalue="Python.task" />
+        <item itemvalue="Python.task1" />
         <item itemvalue="Python.slide_show_landscapes" />
       </list>
     </recent_temporary>
@@ -295,7 +295,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="hash">
+                    <value>
+                      <list>
+                        <option value="2e91f0d13d35053b6e4c021e013f5a794d35dfb0" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="2e91f0d13d35053b6e4c021e013f5a794d35dfb0" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
