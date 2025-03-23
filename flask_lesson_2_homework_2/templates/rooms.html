@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if gender == "female" and age > 21 %}
+        {% set image_1 = url_for("static", filename="img/color_1.png") %}
+        {% set image_2 = url_for("static", filename="img/person_old.png") %}
+    {% elif gender == "female" and age <= 21 %}
+        {% set image_1 = url_for("static", filename="img/color_2.png") %}
+        {% set image_2 = url_for("static", filename="img/person_young.png") %}
+    {% elif gender == "male" and age <= 21 %}
+        {% set image_1 = url_for("static", filename="img/color_3.png") %}
+        {% set image_2 = url_for("static", filename="img/person_young.png") %}
+    {% elif gender == "male" and age > 21 %}
+        {% set image_1 = url_for('static', filename='img/color_4.png') %}
+        {% set image_2 = url_for('static', filename='img/person_old.png') %}
+    {% endif %}
+    <div class="text-center">
+        <h2>Оформление каюты</h2>
+    </div>
+    <table class="table">
+        <thead>
+          <tr class="text-center">
+            <th scope="col">Цвет стены</th>
+            <th scope="col">Оформление</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">
+                <img src={{image_1}}>
+            </th>
+            <td>
+                <img src={{image_2}}>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+{% endblock %}

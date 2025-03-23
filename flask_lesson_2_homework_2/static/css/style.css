@@ -1,0 +1,9 @@
+tr {
+    color: rgb(255, 255, 255);
+    background-color: grey;
+}
+
+.center {
+    margin: auto;
+    width: 30%;
+}

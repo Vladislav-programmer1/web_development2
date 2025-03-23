@@ -2,12 +2,23 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-    <title>{{ title }}</title>
+    <title>training</title>
 </head>
 <body>
     <h1>Миссия Колонизация Марса</h1>
     <h4>И на Марсе будут яблони цвести!</h4>
-    {% block content %}
-    {% endblock %}
+    <div class="margin-left=10">
+        {% if "инженер" in name or "строитель" in name %}
+            <div>
+                <h3>Инженерные тренажёры</h3>
+                <img src="static/img/engineer.ong">
+            </div>
+        {% else %}
+            <div>
+                <h3>Научные симуляторы</h3>
+                <img src="static/img/science.png">
+            </div>
+        {% endif %}
+    </div>
 </body>
 </html>
