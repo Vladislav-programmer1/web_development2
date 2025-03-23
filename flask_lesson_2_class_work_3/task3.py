@@ -3,8 +3,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
-@app.route("/<list_>")
-@app.route("/index/<list_>")
+@app.route("/list_prof/<list_>")
 def main(list_):
     return render_template("task3.html", list=list_)
 
