@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee8553ab-f7b4-4c26-9daa-4572d420b1b0" name="Changes" comment="flask_lesson_2_homework_2">
-      <change afterPath="$PROJECT_DIR$/flask_lesson_2_additional_2/random_member.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_lesson_2_additional_2/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_lesson_2_additional_2/templates/members.json" afterDir="false" />
+    <list default="true" id="ee8553ab-f7b4-4c26-9daa-4572d420b1b0" name="Changes" comment="flask_lesson_2_additional_2">
+      <change afterPath="$PROJECT_DIR$/flask_lesson_2/loginform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_lesson_2/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_lesson_2/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_lesson_2/templates/login.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/flask_lesson_3_classwork_2/jobs.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/flask_lesson_3_classwork_3/data/__all_models.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/flask_lesson_3_classwork_3/data/db_session.py" afterDir="false" />
@@ -20,7 +21,6 @@
       <change afterPath="$PROJECT_DIR$/flask_lesson_3_classwork_3/templates/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/flask_lesson_3_classwork_3/templates/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_lesson_2_homework_1/distribution.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_lesson_2_homework_1/distribution.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -65,6 +65,7 @@
     "Python.help.executor": "Run",
     "Python.main (1).executor": "Run",
     "Python.main (2).executor": "Run",
+    "Python.main (3).executor": "Run",
     "Python.random_member.executor": "Run",
     "Python.rooms.executor": "Run",
     "Python.slide_show_landscapes.executor": "Run",
@@ -73,11 +74,12 @@
     "Python.task3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Shchegolev/web_project_with_git/pythonProject/flask_lesson_2_additional_2"
+    "last_opened_file_path": "C:/Users/Shchegolev/web_project_with_git/pythonProject/flask_lesson_2/templates"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Shchegolev\web_project_with_git\pythonProject\flask_lesson_2\templates" />
       <recent name="C:\Users\Shchegolev\web_project_with_git\pythonProject\flask_lesson_2_additional_2" />
       <recent name="C:\Users\Shchegolev\web_project_with_git\pythonProject\flask_lesson_2_homework_2" />
       <recent name="C:\Users\Shchegolev\web_project_with_git\pythonProject\flask_lesson_3_classwork_3\data" />
@@ -91,29 +93,7 @@
       <recent name="C:\Users\Shchegolev\web_project_with_git\pythonProject\flask_lesson_2_class_work_2\template" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.random_member">
-    <configuration name="distribution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_lesson_2_homework_1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_lesson_2_homework_1/distribution.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main (3)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -150,6 +130,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_lesson_3_classwork_3/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_lesson_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_lesson_2/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.random_member" />
         <item itemvalue="Python.rooms" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.distribution" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +396,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742740802283</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="flask_lesson_2_additional_2">
+      <option name="closed" value="true" />
+      <created>1742820837920</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1742820837920</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -442,7 +452,8 @@
     <MESSAGE value="flask_lesson_3_classwork_1" />
     <MESSAGE value="flask_lesson_2_classwork_3" />
     <MESSAGE value="flask_lesson_2_homework_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="flask_lesson_2_homework_2" />
+    <MESSAGE value="flask_lesson_2_additional_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="flask_lesson_2_additional_2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
