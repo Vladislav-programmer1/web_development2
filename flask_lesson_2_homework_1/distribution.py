@@ -12,7 +12,7 @@ def main():
                "Гарри Селдон",
                "Шон Бин",
                "Иванов Иван"]
-    return render_template("distribution.html", members=members)
+    return render_template("rooms.html", members=members)
 
 
 if __name__ == "__main__":

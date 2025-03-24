@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% set member = members | random %}
+
+    <h2 class="center">
+        {{member.name}} {{member.surname}}
+    </h2>
+
+    <div class="center">
+        <img src=static/img/{{member.image}}>
+    </div>
+
+    <p class="center">
+        {{ member.profs | sort | join(", ") }}
+    </p>
+{% endblock %}
