@@ -1,17 +1,28 @@
-{% extends "base.html" %}
-
-{% block content %}
-    {% set member = members | random %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <style>
+        .center {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    {% set member = crew | random}
 
     <h2 class="center">
         {{member.name}} {{member.surname}}
     </h2>
 
     <div class="center">
-        <img src=static/img/{{member.image}}>
+        <img src={{member.image}}>
     </div>
 
     <p class="center">
-        {{ member.profs | sort | join(", ") }}
+        {{% member.profs | sort | join(", ") %}}
     </p>
-{% endblock %}
+</body>
+</html>
