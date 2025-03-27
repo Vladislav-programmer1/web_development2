@@ -1,6 +1,7 @@
 from flask import Flask, render_template, redirect
 from flask_login import login_user, LoginManager, login_required, logout_user
 
+from api.jobs_api import jobs_bp
 from data import db_session
 from data.users import User
 from data.jobs import Jobs
@@ -11,6 +12,7 @@ from data.register_form import RegisterForm
 from sqlalchemy import select, func
 
 app = Flask(__name__)
+app.register_blueprint(jobs_bp, url_prefix="/api")
 app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
 login_manager = LoginManager()
 login_manager.init_app(app)

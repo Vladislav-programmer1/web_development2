@@ -4,26 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee8553ab-f7b4-4c26-9daa-4572d420b1b0" name="Changes" comment="flask_lesson_3_additional_1">
-      <change afterPath="$PROJECT_DIR$/flask_lesson_3_classwork_2/jobs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_lesson_3_classwork_3/data/jobs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_lesson_3_classwork_3/data/users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_lesson_3_classwork_3/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_lesson_3_classwork_3/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_lesson_3_classwork_3/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/something_from_lesson/data/login_form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/something_from_lesson/data/register_form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/something_from_lesson/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/something_from_lesson/templates/login1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/something_from_lesson/templates/register.html" afterDir="false" />
+    <list default="true" id="ee8553ab-f7b4-4c26-9daa-4572d420b1b0" name="Changes" comment="flask_lesson_3_homework_6">
+      <change afterPath="$PROJECT_DIR$/something_from_lesson/api/jobs_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_lesson_3/db/blogs.db" beforeDir="false" afterPath="$PROJECT_DIR$/flask_lesson_3_classwork_3/db/blogs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_lesson_3/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_lesson_3_classwork_3/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/help.py" beforeDir="false" afterPath="$PROJECT_DIR$/help.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/something_from_lesson/data/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/something_from_lesson/data/users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/something_from_lesson/db/mars.db" beforeDir="false" afterPath="$PROJECT_DIR$/something_from_lesson/db/mars.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/something_from_lesson/data/jobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/something_from_lesson/data/jobs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/something_from_lesson/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/something_from_lesson/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/something_from_lesson/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/something_from_lesson/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -67,6 +52,7 @@
     &quot;Python.file_uploading.executor&quot;: &quot;Run&quot;,
     &quot;Python.form_for_selecting.executor&quot;: &quot;Run&quot;,
     &quot;Python.help.executor&quot;: &quot;Run&quot;,
+    &quot;Python.jobs_api.executor&quot;: &quot;Run&quot;,
     &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
     &quot;Python.main (3).executor&quot;: &quot;Run&quot;,
@@ -142,6 +128,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="jobs_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/something_from_lesson/api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/something_from_lesson/api/jobs_api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -208,35 +216,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="random_member" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_lesson_2_additional_2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_lesson_2_additional_2/random_member.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.jobs_api" />
         <item itemvalue="Python.help" />
         <item itemvalue="Python.decisions" />
         <item itemvalue="Python.main (3)" />
-        <item itemvalue="Python.random_member" />
       </list>
     </recent_temporary>
   </component>
@@ -456,7 +442,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743058102920</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="flask_lesson_3_homework_6">
+      <option name="closed" value="true" />
+      <created>1743069233119</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1743069233119</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -510,7 +504,8 @@
     <MESSAGE value="flask_lesson_3_classwork_3" />
     <MESSAGE value="flask_lesson_3_classwork_7" />
     <MESSAGE value="flask_lesson_3_additional_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="flask_lesson_3_additional_1" />
+    <MESSAGE value="flask_lesson_3_homework_6" />
+    <option name="LAST_COMMIT_MESSAGE" value="flask_lesson_3_homework_6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
