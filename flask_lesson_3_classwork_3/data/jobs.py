@@ -1,0 +1,19 @@
+import datetime
+import sqlalchemy
+from sqlalchemy import orm
+from .db_session import SqlAlchemyBase
+
+
+class Jobs(SqlAlchemyBase):
+    __tablename__ = 'job'
+
+    id = sqlalchemy.Column(sqlalchemy.Integer, sqlalchemy.ForeignKey("users.id"))
+    team_leader = sqlalchemy.Column(sqlalchemy.Integer)
+    job = sqlalchemy.Column(sqlalchemy.String)
+    work_size = sqlalchemy.Column(sqlalchemy.Integer)
+    collaborators = sqlalchemy.Column(sqlalchemy.String)
+    start_date = sqlalchemy.Column(sqlalchemy.DATE,
+                                   default=datetime.date.today())
+    end_date = sqlalchemy.Column(sqlalchemy.DATE,
+                                 default=datetime.date.today())
+    is_finished = sqlalchemy.Column(sqlalchemy.BLOB)

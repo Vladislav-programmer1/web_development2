@@ -1,4 +1,5 @@
 import argparse
+from sqlalchemy import select, func
 
 
 def main():
@@ -9,10 +10,11 @@ def main():
     global_init(parser.name)
 
     session = db_session.create_session()
-    query = session.query(User.id).filter(User.address == "module_1",
-                                          User.speciality.notlike("engineer"),
-                                          User.position.notlike("engineer"))
-    print(*query, sep="\n")
+    selected_colonists = session.query(User).filter(User.address == "module_1", User.age < 21)
+
+    for colonist in selected_colonists:
+        colonist.address = "module_3"
+    session.commit()
 
 
 if __name__ == "__main__":
